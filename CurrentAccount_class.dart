@@ -10,7 +10,7 @@ class CurrentAccount extends Account{
     if(amount<=balance+overdraftLimit){
       balance-=amount;
       print('Withdrawing: $amount');
-      print('New Balance $balance');
+      print('Depositing: $balance');
 
     } else{
       print('Insufficient funds');

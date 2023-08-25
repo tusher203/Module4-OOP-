@@ -11,6 +11,6 @@ class SavingsAccount extends Account {
     balance -= amount;
     balance += balance * interestRate;
     print('Withdrawing: $amount');
-    print('New Balance $balance');
+    print('Depositing: $balance');
   }
 }

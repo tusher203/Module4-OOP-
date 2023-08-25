@@ -7,7 +7,7 @@ abstract class Account {
   void deposit(double amount) {
     balance += amount;
     print('Withdrawing: $amount');
-    print('New Balance:$balance');
+    print('Depositing:$balance');
   }
 
   void withdraw(double amount);
